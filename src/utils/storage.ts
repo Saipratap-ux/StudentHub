@@ -11,8 +11,8 @@ const STORAGE_KEYS = {
 
 // Realistic initial sample data
 export const INITIAL_SETTINGS: UserSettings = {
-  studentName: 'Alex Rivera',
-  studentMajor: 'Computer Science & Cognitive Systems',
+  studentName: 'Saipratap Dansana',
+  studentMajor: 'Computer Science & Software Engineering',
   studentSchool: 'University Tech Campus',
   dailyGoalHours: 4,
   focusDuration: 25,

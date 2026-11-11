@@ -48,6 +48,7 @@ import { NoteModal } from './components/modals/NoteModal';
 import { SettingsModal } from './components/modals/SettingsModal';
 import { GitHubGuideModal } from './components/modals/GitHubGuideModal';
 import { QuickSearchModal } from './components/modals/QuickSearchModal';
+import { OfflineIndicator } from './components/OfflineIndicator';
 import { Menu } from 'lucide-react';
 
 export default function App() {
@@ -601,6 +602,9 @@ export default function App() {
         timetable={timetable}
         onSelectResult={(tab) => setActiveTab(tab)}
       />
+
+      {/* Offline Connectivity Notification */}
+      <OfflineIndicator />
     </div>
   );
 }
